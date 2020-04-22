@@ -142,6 +142,7 @@
   animation: hamburger_crown_rotate 0.25s linear 0s 1 normal forwards;
   -webkit-animation: hamburger_crown_rotate 0.25s linear 0s 1 normal forwards;
   -moz-animation: hamburger_crown_rotate 0.25s linear 0s 1 normal forwards;
+  transform-origin: 8%;
 }
 
 .hamburger_container:hover #hamburger_patty {
@@ -154,28 +155,27 @@
   animation: hamburger_heel_rotate 0.25s linear 0s 1 normal forwards;
   -webkit-animation: hamburger_heel_rotate 0.25s linear 0s 1 normal forwards;
   -moz-animation: hamburger_heel_rotate 0.25s linear 0s 1 normal forwards;
+  transform-origin: 8%;
 }
 
 /* Hover Off Event */
 
-#hamburger_crown.animated {
+.animated #hamburger_crown{
   animation: hamburger_crown_rotate_reverse 0.25s linear 0s 1 normal backwards;
   -webkit-animation: hamburger_crown_rotate_reverse 0.25s linear 0s 1 normal backwards;
   -moz-animation: hamburger_crown_rotate_rotate_reverse 0.25s linear 0s 1 normal backwards;
   transform-origin: 8%;
 }
 
-#hamburger_patty.animated {
+.animated #hamburger_patty{
   animation: hamburger_patty_show 0.25s linear 0s 1 normal backwards;
   -webkit-animation: hamburger_patty_show 0.25s linear 0s 1 normal backwards;
   -moz-animation: hamburger_patty_show 0.25s linear 0s 1 normal backwards;
 }
 
-#hamburger_heel.animated {
+.animated #hamburger_heel{
   animation: hamburger_heel_rotate_reverse 0.25s linear 0s 1 normal backwards;
   -webkit-animation: hamburger_heel_rotate_reverse 0.25s linear 0s 1 normal backwards;
   -moz-animation: hamburger_heel_rotate_reverse 0.25s linear 0s 1 normal backwards;
   transform-origin: 8%;
 }
-
-/* Click Event */
