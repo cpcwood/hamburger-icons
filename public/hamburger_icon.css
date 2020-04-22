@@ -4,5 +4,24 @@
   right: 0px;
   height: 100px;
   width: 100px;
-  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hamburger {
+  position: absolute;
+  height: 80%;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.hamburger_bar {
+  background-color: black;
+  height: 15%;
+  width: 100%;
+  border-radius: 999px;
 }
