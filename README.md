@@ -1,10 +1,13 @@
 # Animated Hamburger Icons
 
-### Overview
+## Overview
 
 Different flavours of animated hamburger menu selection icons. 
 
+## Buttons
+#### Hover
+- X animation
 
-### Buttons
-- Hover interaction X animation
+#### Click
+- X animation
 
