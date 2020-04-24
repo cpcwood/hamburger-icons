@@ -56,8 +56,8 @@
   100% {-moz-transform: rotate(0deg) scaleX(1);}
 }
 @-o-keyframes hamburger_crown_rotate_reverse {
-  0% {-o-transform: rotate(0deg) scaleX(0.97);}
-  100% {-o-transform: rotate(45deg) scaleX(1);}
+  0% {-o-transform: rotate(45deg) scaleX(0.97);}
+  100% {-o-transform: rotate(0deg) scaleX(1);}
 }
 @keyframes hamburger_crown_rotate_reverse {
   0% {transform: rotate(45deg) scaleX(0.97);}
@@ -128,8 +128,8 @@
   100% {-moz-transform: rotate(0deg) scaleX(1);}
 }
 @-o-keyframes hamburger_heel_rotate_reverse {
-  0% {-o-transform: rotate(0deg) scaleX(0.97);}
-  100% {-o-transform: rotate(-45deg) scaleX(1);}
+  0% {-o-transform: rotate(-45deg) scaleX(0.97);}
+  100% {-o-transform: rotate(0deg) scaleX(1);}
 }
 @keyframes hamburger_heel_rotate_reverse {
   0% {transform: rotate(-45deg) scaleX(0.97);}

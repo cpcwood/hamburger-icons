@@ -6,8 +6,9 @@ Different flavours of animated hamburger menu selection icons.
 
 ## Buttons
 #### Hover
-- X animation
+- cross-right
 
 #### Click
-- X animation
+- cross-right
+- cross-left
 
