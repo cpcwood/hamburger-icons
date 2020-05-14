@@ -163,7 +163,7 @@
 .reset_animation #hamburger_crown{
   animation: hamburger_crown_rotate_reverse 0.25s ease-in-out 0s 1 normal backwards;
   -webkit-animation: hamburger_crown_rotate_reverse 0.25s ease-in-out 0s 1 normal backwards;
-  -moz-animation: hamburger_crown_rotate_rotate_reverse 0.25s ease-in-out 0s 1 normal backwards;
+  -moz-animation: hamburger_crown_rotate_reverse 0.25s ease-in-out 0s 1 normal backwards;
   transform-origin: 8%;
 }
 
